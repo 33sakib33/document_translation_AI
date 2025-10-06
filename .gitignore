@@ -1,0 +1,19 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+.venv/
+env/
+venv/
+
+# Ignore VSCode / PyCharm settings
+.vscode/
+.idea/
+
+# Ignore development containers
+.devcontainer/
+
+# Ignore secrets and Streamlit config
+.env
+.streamlit/secrets.toml

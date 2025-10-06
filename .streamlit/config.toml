@@ -1,0 +1,32 @@
+[server]
+# Enable CORS for file uploads and cross-origin requests
+enableCORS = true
+enableXsrfProtection = false
+enableStaticServing = true
+
+# File upload settings (in MB)
+maxUploadSize = 200
+maxMessageSize = 200
+
+# Server settings
+port = 8501
+headless = false
+address = "0.0.0.0"
+
+# Additional CORS settings
+allowRunOnSave = true
+
+[browser]
+# Automatically open browser
+gatherUsageStats = false
+
+[theme]
+# Optional: Set a theme
+primaryColor = "#FF6B6B"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F0F2F6"
+textColor = "#262730"
+
+[logger]
+# Reduce logging noise
+level = "warning"

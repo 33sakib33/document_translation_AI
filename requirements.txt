@@ -1,0 +1,12 @@
+streamlit
+python-docx
+aiohttp
+tqdm
+openai
+pdfservices-sdk
+google-genai
+ollama
+sentence-transformers
+transformers
+torch
+numpy
